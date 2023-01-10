@@ -20,11 +20,10 @@ author: Manlin Cai
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Research:
+  Publications:
+  CV: 
+#Monica note: add  - Beautiful Jekyll: "https://beautifuljekyll.com"
 
 ################
 # --- Logo --- #
