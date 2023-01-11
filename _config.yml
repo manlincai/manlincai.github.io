@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Manlin Cai (website in progress)
+title: Manlin Cai
 
 # Your name to show in the footer
 author: Manlin Cai
@@ -38,7 +38,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: /path/to/image
 
 
 #####################################
