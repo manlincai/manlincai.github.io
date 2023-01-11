@@ -21,8 +21,7 @@ author: Manlin Cai
 
 navbar-links:
   Home: "index"
-  Research and Publications:
-  CV: 
+  CV: "/assets/CV_Cai_092022.pdf"
 #Monica note: add  - Beautiful Jekyll: "https://beautifuljekyll.com"
 
 ################
