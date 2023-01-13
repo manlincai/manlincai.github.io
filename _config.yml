@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: Manlin's Personal Webiste
+title: Manlin's Website
 
 # Your name to show in the footer
 author: Manlin Cai
@@ -21,7 +21,7 @@ author: Manlin Cai
 
 navbar-links:
   Home: "index"
-  CV: "/assets/CV_Cai_Jan2023v2.pdf"
+  CV: "/assets/CV_Cai_Jan2023.pdf"
 #Monica note: add  - Beautiful Jekyll: "https://beautifuljekyll.com"
 
 ################
