@@ -140,10 +140,10 @@ footer-hover-col: "#0085A1"
 # instead of colour
 
 navbar-img: "/assets/img/test 1.jpg"
-object-fit: contain
+<img src="test 1.jpg" width=100% height=10%>
 
 footer-img: "/assets/img/test 3.jpg"
-object-fit: contain
+
 
 #page-img: "/assets/img/bgimage.png"
 
