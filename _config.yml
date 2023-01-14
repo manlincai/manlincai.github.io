@@ -140,16 +140,10 @@ footer-hover-col: "#0085A1"
 # instead of colour
 
 navbar-img: "/assets/img/test 1.jpg"
-max-width: 100%
-max-height: 100vh
-width: auto
-margin: auto
+object-fit: contain
 
 footer-img: "/assets/img/test 3.jpg"
-max-width: 100%
-max-height: 100vh
-width: auto
-margin: auto
+object-fit: contain
 
 #page-img: "/assets/img/bgimage.png"
 
