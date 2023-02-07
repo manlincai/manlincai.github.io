@@ -4,7 +4,7 @@ title: Research
 Subtitle: Research and Publications
 ---
 
-Manlin Cai’s research has covered three areas in sociology of family and work:
+Manlin Cai’s research has included three areas in sociology of family and work:
 <p>&nbsp;</p>
 #### 1. Patterns of assortative mating in the digital era
 
