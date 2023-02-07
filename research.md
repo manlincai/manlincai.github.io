@@ -5,7 +5,7 @@ Subtitle: Research and Publications
 ---
 
 Manlin Cai’s research has covered three areas in sociology of family and work:
-
+<p>&nbsp;</p>
 #### 1. Patterns of assortative mating in the digital era
 
 - **Cai, Manlin** and Yue Qian. Forthcoming. “[Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver](https://doi.org/10.1111/cars.12414).” *Canadian Review of Sociology*. Online first. 
