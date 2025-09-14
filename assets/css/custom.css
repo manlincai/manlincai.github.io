@@ -1,0 +1,21 @@
+/* 让 page-img 作为整页背景真正“铺满 + 居中”显示 */
+body {
+  background-size: cover !important;       /* 按比例铺满视口 */
+  background-position: center center !important; /* 居中对齐 */
+  background-repeat: no-repeat !important;  /* 不平铺 */
+  background-attachment: scroll !important; /* 取消 fixed 导致只露出顶部的小条 */
+}
+
+/* 可选：如果希望顶部对齐，改成下面这一行 */
+// body { background-position: center top !important; }
+
+/* 可选：提高文字可读性（轻微暗化背景）。不需要就删掉本段。 */
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.08);
+  pointer-events: none;
+}
+
