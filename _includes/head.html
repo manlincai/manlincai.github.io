@@ -22,7 +22,7 @@
       {{ page.content | strip_html | xml_escape | truncatewords: excerpt_length | strip }}
     {%- endif -%}
   {% endcapture %}
-<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=2' | relative_url }}">
+
   <title>{{ title }}</title>
 
   {% if site.author %}
@@ -148,5 +148,5 @@
       {% include {{ file }} %}
     {% endfor %}
   {% endif %}
-
+<link rel="stylesheet" href="{{ '/assets/css/custom.css?v=2' | relative_url }}">
 </head>
