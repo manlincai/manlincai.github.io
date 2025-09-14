@@ -1,0 +1,62 @@
+/* —— 整页背景“铺满 + 居中”，避免只看到顶部一小条 —— */
+body{
+  background-size: cover !important;          /* 按比例铺满视口 */
+  background-position: center center !important; /* 居中（要顶对齐可改为 center top） */
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;   /* 避免 fixed 造成只露出顶部的错觉 */
+  position: relative;
+}
+
+/* —— 导航 & 页脚透明，让它们“透”出同一张背景图 —— */
+.navbar, footer.site-footer, .footer {
+  background: transparent !important;
+  box-shadow: none !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* 给导航加一层顶部渐变，提升文字对比度（不需要可删） */
+.navbar::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0));
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* —— 全页轻微暗化，提高整体可读性（不需要可注释掉） —— */
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.08); /* 调整 0.08~0.15 之间看效果 */
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* —— 正文容器半透明白底 + 轻微模糊，保证文字清晰 —— */
+/* 下面选择器覆盖了主题常见的内容容器，你可按需要删减 */
+.page-content .container,
+.container-md,
+.col-xl-8, .col-lg-10,
+.post, .home .container-md {
+  background: rgba(255,255,255,0.82); /* 透明度可调：0.70~0.90 */
+  backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+/* 让容器与背景有一点间距（可按需要调整） */
+.page-content { padding-top: 1rem; padding-bottom: 1rem; }
+
+/* 代码块/警告块等也给点浅底，避免直接压在背景图上（可选） */
+pre, code, .alert {
+  background: rgba(255,255,255,0.9);
+}
+
+/* 移动端微调：缩小边距，避免白底过窄（可选） */
+@media (max-width: 576px){
+  .page-content .container, .container-md { padding: 1rem; border-radius: 10px; }
+}
