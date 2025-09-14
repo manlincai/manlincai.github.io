@@ -23,6 +23,7 @@ Below is some feedback from my students:
   
 - Students highlighted that my tutorials “created fun and engaging assignments and discussions,” “\[were their] favourite discussion class ever,” and “helped \[them] understand how to apply what \[they] learned to real life.”
 
-- They also spoke highly of the inclusive learning environment in my tutorials: 
+- They also spoke highly of the inclusive learning environment in my tutorials:
   - “During group discussions everyone contributed, and when we came together as a class, everyone felt open to sharing their group’s ideas.”
+    
   - “She [Manlin] made the environment comfortable where we felt we could openly share our thoughts.” 
