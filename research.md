@@ -16,7 +16,7 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
 
 #### Immigrant Trajectories from Education to Work and Permanent Residency
 
-Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
+- Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
 
 <p>&nbsp;</p>
 
@@ -36,7 +36,7 @@ My dissertation centres on workplace authority—the legitimate power to supervi
 
 In addition to  journal articles, I led a policy brief in partnership wtih the Vanier Institute of the Family on Canada's work/care policies, which was also featured in the media by [The Tyee](https://thetyee.ca/News/2025/08/04/How-Can-Canada-Better-Support-Working-Parents/).
 
-**Cai, Manlin**, Sylvia Fuller, and Donna Lero. 2025. “[Care/Work Policies for Managing Routine and Unpredictable Caregiving](https://vanierinstitute.ca/resource/policy-brief-care-work-policies-for-managing-routine-and-unpredictable-caregiving/).” *The Vanier Institute of the Family*.
+- **Cai, Manlin**, Sylvia Fuller, and Donna Lero. 2025. “[Care/Work Policies for Managing Routine and Unpredictable Caregiving](https://vanierinstitute.ca/resource/policy-brief-care-work-policies-for-managing-routine-and-unpredictable-caregiving/).” *The Vanier Institute of the Family*.
 
 <p>&nbsp;</p>
 
