@@ -35,3 +35,33 @@ body::before{
   padding: 1.25rem 1.5rem;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
+
+
+/* —— 1) 头像与标题更贴近 —— */
+/* 头像下方留更小的间距（主题里常见的类名都覆盖到） */
+.avatar, .avatar-img, .avatar-container { margin-bottom: .35rem !important; }
+
+/* 主标题与副标题的上下外边距更紧凑 */
+.home h1, .home .page-title { 
+  margin-top: .15rem !important; 
+  margin-bottom: .3rem !important; 
+}
+.home .page-subtitle { margin-top: 0 !important; }
+
+/* —— 2) 缩小卡片“白边”/圆角，让卡片更紧凑 —— */
+.home .card {
+  padding: 1rem 1.25rem !important;     /* 原来很厚，这里收紧 */
+  border-radius: 14px !important;        /* 圆角小一点 */
+  box-shadow: 0 4px 16px rgba(0,0,0,.08) !important;
+}
+/* 顶部那张写“Manlin Cai”的卡片再紧一些（如果不生效可以删掉这行） */
+.home .card:first-of-type { padding: 1rem 1.25rem !important; }
+
+/* —— 3) 去掉底部整条白色背景，让大图铺满到最底 —— */
+html, body { min-height: 100%; }         /* 背景延伸到页面底部 */
+main.page-content, .page-content, .page-wrapper {
+  background: transparent !important;    /* 清除页面容器自带的灰/白底 */
+}
+
+/* （可选）页面上各内容卡与底图的间距更紧凑一点 */
+.home .page-content { padding-bottom: 0.75rem !important; }
