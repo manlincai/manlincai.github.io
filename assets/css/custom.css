@@ -36,90 +36,36 @@ body::before{
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
-
-/* 1) 头像与标题更贴近 —— 删掉 .home 前缀，直接针对常见元素类 */
-.avatar, .avatar-img, .avatar-container { 
-  margin-bottom: .25rem !important; 
+/* 1) 让名字和 title 更贴近头像；减小标题区留白 */
+.intro-header, .page-header, header[role="banner"] {
+  padding-top: 0.8rem !important;
+  padding-bottom: 0.8rem !important;
 }
-h1, .page-title { 
-  margin-top: .15rem !important; 
-  margin-bottom: .3rem !important; 
+.page-title, .page-subtitle {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0.25rem !important;
 }
-.page-subtitle { 
-  margin-top: 0 !important; 
-}
-
-/* 2) 收紧内容“白边” —— 针对实际容器类，而不是 .home .card */
-.page-content .container,
-.container, .container-md,
-.col-xl-8, .col-lg-10,
-.post, .post-preview, .content {
-  padding: 0.75rem 1rem !important;   /* 按需再调小/大 */
-  border-radius: 12px !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,.08) !important;
+.avatar, .avatar-container img, .round-logo, img[alt*="avatar"] {
+  margin-right: 0.6rem !important; /* 头像与文字的横向间距 */
 }
 
-/* 3) 去掉底部整条白带，让背景铺到底 —— 扩大选择器覆盖 footer 不同写法 */
-html, body { min-height: 100%; }
-main.page-content, .page-content, .page-wrapper { 
-  background: transparent !important; 
-}
-footer, .site-footer, #footer, .footer { 
-  background: transparent !important; 
-  box-shadow: none !important; 
-  border-top: 0 !important;
-}
-/* 某些主题把版权条单独上了底色，这里也清掉 */
-.site-footer .copyright, 
-.footer .copyright, 
-.footer .small { 
-  background: transparent !important; 
-}
-
-/* 让页面底部留白更小一点（按需调） */
-.page-content { padding-bottom: .5rem !important; }
-
-/* 背景：用更强选择器+成组写法，避免被 shorthand 覆盖 */
-html body{
-  background-position: center center !important;
+/* 2) 让底部背景“铺满”，去掉容器里的白边/白底 */
+.site-footer, footer.site-footer {
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-attachment: scroll !important;
+  background-position: center center !important;
 }
-
-/* 导航：常见类的组合，覆盖任何浅色/默认背景 */
-header nav.navbar,
-.navbar.navbar-expand-md,
-.navbar.navbar-light,
-.navbar.bg-light,
-.navbar-default{
+.site-footer .container, footer.site-footer .container {
+  max-width: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
+  border: 0 !important;
 }
 
-/* 页脚：把容器也一并透明，避免“底部白条” */
-footer,
-.site-footer,
-.site-footer .container,
-.site-footer .row,
-.footer{
-  background: transparent !important;
-  box-shadow: none !important;
-  border-top: 0 !important;
+/* 3) 若正文区背景太实，给正文加浅色半透明背景，提升可读性 */
+.main-content, .container .row .col-lg-8, .post, .page {
+  background: rgba(255,255,255,.75);
 }
 
-/* 内容卡片：收紧内边距 & 半透明白底（可按需调小/大） */
-.page-content .container,
-.container, .container-md,
-.col-xl-8, .col-lg-10,
-.post, .post-preview, .content{
-  background: rgba(255,255,255,.82) !important;
-  padding: .75rem 1rem !important;
-  border-radius: 12px !important;
-  box-shadow: 0 4px 16px rgba(0,0,0,.08) !important;
-}
-
-/* 头像与标题贴近（去掉 .home 前缀以命中所有页面） */
-.avatar, .avatar-img, .avatar-container { margin-bottom: .2rem !important; }
-h1, .page-title { margin-top: .15rem !important; margin-bottom: .3rem !important; }
-.page-subtitle { margin-top: 0 !important; }
