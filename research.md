@@ -14,16 +14,15 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
 
 <style>
 
-#imm-traj-anchor + h4 { 
-  margin-top: 0.6rem !important;   
-  margin-bottom: 0.35rem !important; 
+#imm-traj-anchor + h4{
+  margin-top: 0.6rem !important;     
+  margin-bottom: 0.35rem !important;  
 }
-#imm-traj-anchor + h4 + ul {
-  margin-top: 0.2rem !important;   
+#imm-traj-anchor + h4 + ul{
+  margin-top: 0.2rem !important;     
 }
 </style>
 <a id="imm-traj-anchor"></a>
-
 #### Immigrant Trajectories from Education to Work and Permanent Residency
 
 - Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
