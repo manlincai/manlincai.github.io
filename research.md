@@ -12,12 +12,13 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
   <li><strong>Cai, Manlin</strong> and Yue Qian. 2023. “<a href="https://doi.org/10.1111/cars.12414">Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver</a>.” <em>Canadian Review of Sociology</em> 60(1): 130–153.</li>
 </ul>
 
-<h4>Immigrant Trajectories from Education to Work and Permanent Residency</h4>
-<ul>
+<h4 style="margin:0.6rem 0 0.35rem">Immigrant Trajectories from Education to Work and Permanent Residency</h4>
+<ul style="margin-top:0.15rem">
   <li>Lui, Lake, <strong>Manlin Cai</strong>, and Yue Qian. 2024. “<a href="https://muse.jhu.edu/article/934427">Comfortably ‘Western’: How Chinese International Students Imagine Canada</a>.” <em>Canadian Ethnic Studies</em> 56(2): 157–176.</li>
 </ul>
 
 <p>Another line of my research foregrounds gender inequalities at the work-family interface in both Canada and China. I introduce my dissertation work and some select publications below.</p>
+
 
 
 #### Dissertation: Power and Status in Public and Private Spheres: Gender, Workplace Authority, and Family Dynamics in China"
