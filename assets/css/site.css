@@ -72,5 +72,13 @@ footer .container,
   background: transparent !important;
 }
 
+/* 让标题后紧跟的列表有上边距 */
+h3 + ul, h4 + ul, h5 + ul {
+  margin-top: 0.3rem !important;  /* 自己调数字 */
+}
 
+/* 如果你的主题把 h4 的下边距也清零了，可以顺便给它一点 */
+h4 {
+  margin-bottom: 0.3rem;
+}
 
