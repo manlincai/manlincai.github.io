@@ -53,15 +53,3 @@ footer .container,
   color: #111;
 }
 
-/* 外层容器与其他嵌套容器清为透明，避免第二层 */
-.page-content .container,
-.page-content .container-md,
-.page-content .post,
-.page-content .post-content,
-.page-content .post-preview,
-.page-content .content{
-  background: transparent !important;
-  box-shadow: none !important;
-  padding: 0 !important;   /* 不要再叠加内边距 */
-  border: 0 !important;
-}
