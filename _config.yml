@@ -15,6 +15,16 @@ title: Manlin's Website
 # Your name to show in the footer
 author: Manlin Cai
 
+
+###############################################
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css:
+        - "/assets/css/site.css"
+
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
