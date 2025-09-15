@@ -9,19 +9,22 @@ body{
 
 /* —— 导航 & 页脚透明，让它们“透”出同一张背景图 —— */
 .navbar {
-  background: rgba(255, 255, 255, 0.5) !important;
+  background: rgba(255, 255, 255, 0.3) !important;
   box-shadow: none !important;
   position: relative;
   z-index: 2;
 }
 
-.footer {
-  background: rgba(255, 255, 255, 0.5) !important;
+footer,
+.site-footer,
+.footer,
+#footer{
+  background-color: rgba(255,255,255,0.3) !important; /* 0.5 = 50% 透明 */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
   box-shadow: none !important;
-  position: relative;
-  z-index: 2;
+  border-top: 0 !important;
 }
-
 
 
 /* —— 全页轻微暗化，提高整体可读性（不需要可注释掉） —— */
