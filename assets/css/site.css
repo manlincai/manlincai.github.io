@@ -40,43 +40,17 @@ footer .container,
   background: transparent !important;
 }
 
-/* —— 只作用于正文区域，不影响 navbar / footer —— */
 
-/* 1) 收紧正文顶部的总体留白（避免“标题往下坠”） */
-main.page-content, .page-content{
-  padding-top: .5rem !important;      /* 如需更贴：.4rem 或 .3rem */
-}
-
-/* 2) 第一个主标题的段前距几乎为零，并略收紧行高 */
-.page-content :is(h1.page-title, h1):first-of-type{
-  margin-top: .1rem !important;       /* 若还偏低可用 0 */
-  margin-bottom: .35rem !important;
-  line-height: 1.15 !important;
-  color: #111111 !important;          /* 主标题颜色（可改） */
-  text-shadow: 0 1px 2px rgba(0,0,0,.12);  /* 可选：在背景图上更清晰 */
-}
-
-/* 3) 副标题更贴近主标题，且与正文区分颜色 */
-.page-content :is(.page-subtitle, .subtitle){
-  margin-top: .15rem !important;
-  margin-bottom: .25rem !important;
-  color: #374151 !important;          /* 副标题颜色（可改） */
-  text-shadow: 0 1px 2px rgba(0,0,0,.10);
-}
-
-/* 4) 如果 h1 后面渲染出 <hr>，只留很小的上下间距（避免“像多了一行”） */
-.page-content h1:first-of-type + hr,
-.page-content h1.page-title + hr{
-  margin: .2rem 0 !important;
-  border: 0;
-  border-top: 1px solid rgba(0,0,0,.15);  /* 如在浅底上可改成 rgba(255,255,255,.6) */
-  opacity: .6;
-}
-
-/* 5) 防止首个 h1 的 margin 与外层容器发生“margin 折叠”放大间距 */
+/* 正文容器半透明白底 */
 .page-content .container,
-.page-content .container-md{
-  padding-top: .25rem !important;     /* 很小的 padding 就能阻断折叠 */
+.container-md,
+.col-xl-8, .col-lg-10,
+.post, .home .container-md {
+  background: rgba(255,255,255,0.82);
+  backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding: 1.25rem 1.5rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
 
