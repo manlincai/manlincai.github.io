@@ -11,13 +11,15 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
 - **Cai, Manlin**, Yue Qian, and Yang Hu. 2025. “[The Efficiency Paradox: A Temporal Lens into Online Dating among Chinese Immigrants in Canada](https://doi.org/10.1177/02654075251339257).” Journal of Social and Personal Relationships 42(8): 2167-2187.
 
 - **Cai, Manlin** and Yue Qian. 2023. “[Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver](https://doi.org/10.1111/cars.12414).” *Canadian Review of Sociology* 60(1): 130-153. 
+
 <!-- end list -->
 
 #### Immigrant Trajectories from Education to Work and Permanent Residency
-      
+<span aria-hidden="true" style="display:block;height:0.28rem;line-height:0">&nbsp;</span>
 - Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
 
 Another line of my research foregrounds gender inequalities at the work-family interface in both Canada and China. I introduce my dissertation work and some select publications below.
+
 
 #### Dissertation: Power and Status in Public and Private Spheres: Gender, Workplace Authority, and Family Dynamics in China"
 
@@ -31,7 +33,7 @@ My dissertation centres on workplace authority, the legitimate power to supervis
 
 - Qin, Siqi, **Manlin Cai**, Sylvia Fuller, and Yue Qian. 2022. “[Gender, Parenthood and Employment During COVID-19: An Immigrant-Native Born Comparison in Canada](https://doi.org/10.1353/ces.2022.0025).” *Canadian Ethnic Studies* 54(3): 63-108.
 
-In addition to  journal articles, I led a policy brief in partnership wtih [*the Vanier Institute of the Family*](https://vanierinstitute.ca/) on Canada's care/work policies, which was also featured in the media by [The Tyee](https://thetyee.ca/News/2025/08/04/How-Can-Canada-Better-Support-Working-Parents/).
+In addition to  journal articles, I led a policy brief in partnership with [*the Vanier Institute of the Family*](https://vanierinstitute.ca/) on Canada's care/work policies, which was also featured in the media by [The Tyee](https://thetyee.ca/News/2025/08/04/How-Can-Canada-Better-Support-Working-Parents/).
 
 - **Cai, Manlin**, Sylvia Fuller, and Donna Lero. 2025. “[Care/Work Policies for Managing Routine and Unpredictable Caregiving](https://vanierinstitute.ca/resource/policy-brief-care-work-policies-for-managing-routine-and-unpredictable-caregiving/).” *The Vanier Institute of the Family*.
 
