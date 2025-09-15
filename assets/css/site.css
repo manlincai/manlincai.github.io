@@ -41,20 +41,27 @@ footer .container,
 }
 
 
-/* 正文容器：浅色半透明打底 + 轻微模糊，提升可读性 */
-.page-content .container,
-.container, .container-md,
-.col-xl-8, .col-lg-10,
-.post, .post-content, .post-preview, .content {
-  background: rgba(255,255,255,0.84) !important;  /* 透明度可调：0.72~0.92 */
+/* 仅内层列做成卡片 */
+.page-content .col-xl-8,
+.page-content .col-lg-10{
+  background: rgba(255,255,255,0.84) !important;
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
   border-radius: 14px;
   padding: 1.1rem 1.3rem;
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  color: #111; /* 防止文字过浅 */
+  color: #111;
 }
 
-/* 让卡片与背景留一点间距（按需调小/调大） */
-.page-content { padding-top: 0.75rem !important; padding-bottom: 0.75rem !important; }
-
+/* 外层容器与其他嵌套容器清为透明，避免第二层 */
+.page-content .container,
+.page-content .container-md,
+.page-content .post,
+.page-content .post-content,
+.page-content .post-preview,
+.page-content .content{
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;   /* 不要再叠加内边距 */
+  border: 0 !important;
+}
