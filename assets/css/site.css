@@ -75,7 +75,7 @@ footer .container,
 
 /* 只修“第二处”的 h4 与它后面的列表 */
 #immigrant-trajectories-from-education-to-work-and-permanent-residency {
-  margin-block-end: 1.25rem;   /* 需要多/少就改这个数值 */
+  margin-block-end: 1.875rem;   /* 需要多/少就改这个数值 */
 }
 
 #immigrant-trajectories-from-education-to-work-and-permanent-residency + ul {
