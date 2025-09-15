@@ -31,7 +31,7 @@ defaults:
 
 navbar-links:
   Home: "index"
-  Research: "research"
+  Research: "research1"
   Teaching: "teaching"
   CV: "/assets/Manlin_Cai_CV_Web.pdf" 
 #Monica note: add  - Beautiful Jekyll: "https://beautifuljekyll.com"
