@@ -36,7 +36,7 @@ footer, .site-footer{ position: relative; z-index: 1000; }
    宽度 ≈ 3/7（42.857%），轻微玻璃感，不显突兀的框
 */
 .content{
-  width: 42.857%;
+  width: 50%;
   margin: 2rem auto 4rem;
   padding: 1.25rem 1.5rem;
   background: var(--content-bg);
@@ -59,4 +59,104 @@ nav a:hover, .navbar a:hover, header a:hover, footer a:hover{ text-decoration:un
 }
 @media (min-width:1600px){
   .content{ width: 720px; } /* 控制最大行长，提升可读性 */
+}
+
+
+/* === 让 title / subtitle 更靠近头像 === */
+
+/* 1) 缩小“头像底部”的空隙 */
+.intro-header .avatar,
+.intro-header .avatar-img,
+.intro-header .author-image,
+.intro-header .avatar-container,
+.intro-header .avatar-container img,
+.intro-header img {
+  margin-bottom: 0.35rem !important;   /* 头像与标题的距离 */
+}
+
+/* 2) 缩小“标题块”的上边距 */
+.intro-header .page-heading,
+.intro-header .post-heading {
+  margin-top: 0.2rem !important;
+}
+
+/* 3) 调紧 h1 与下方横线/子标题的距离 */
+.intro-header .page-heading h1,
+.intro-header .post-heading h1 {
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem !important;   /* h1 与横线之间 */
+  line-height: 1.15;
+}
+
+/* 4) 调紧横线本身的上下间距（Beautiful Jekyll 常用的 hr.small） */
+.intro-header hr.small {
+  margin: 0.25rem auto 0.35rem !important;
+}
+
+/* 5) 调紧子标题与标题/横线的距离 */
+.intro-header .page-subheading,
+.intro-header .subheading {
+  margin-top: 0.1rem !important;
+  line-height: 1.3;
+}
+
+/* 6) 轻微压缩整块 hero 的上下内边距（避免大片留白） */
+.intro-header {
+  padding-top: 1.0rem !important;
+  padding-bottom: 1.0rem !important;
+}
+@media (min-width: 768px){
+  .intro-header {
+    padding-top: 1.25rem !important;
+    padding-bottom: 1.25rem !important;
+  }
+}
+/* ==== Slim navbar & footer（更薄的导航和页脚） ==== */
+
+/* 导航条整体变薄 */
+.navbar,
+.navbar-custom,
+header,
+nav {
+  min-height: 44px;                 /* 保持触控友好 */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* 站点名（左上角） */
+.navbar .navbar-brand {
+  padding: 6px 12px !important;     /* 垂直内边距缩小 */
+  line-height: 32px !important;
+}
+
+/* 顶部菜单项（右上角各链接） */
+.navbar-nav > li > a {
+  padding: 6px 12px !important;     /* 默认 15px，改小 */
+  line-height: 32px !important;
+}
+
+/* 汉堡按钮（移动端） */
+.navbar-toggle {
+  padding: 6px 8px !important;
+  margin-top: 6px !important;
+  margin-bottom: 6px !important;
+}
+
+/* 大屏可以再薄一点 */
+@media (min-width: 992px){
+  .navbar,
+  .navbar-custom { min-height: 40px; }
+}
+
+/* 页脚变薄 */
+.site-footer,
+footer {
+  padding-top: 8px !important;      /* 默认较大，这里压缩 */
+  padding-bottom: 8px !important;
+}
+
+/* 页脚里的段落/链接行间距略收紧 */
+.site-footer p,
+.site-footer .footer-links { 
+  margin: 0.2rem 0 !important; 
 }
