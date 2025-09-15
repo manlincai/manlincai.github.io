@@ -38,6 +38,25 @@ footer,
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
 }
 
+/* —— 让页脚不受“正文容器半透明白底”影响 —— */
+footer,
+.site-footer,
+footer .container,
+.site-footer .container,
+footer .container-md,
+.site-footer .container-md,
+footer [class*="col"],
+.site-footer [class*="col"]{
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;   /* 若想保留圆角，可删掉这一行 */
+  padding: initial !important;   /* 或改成你想要的数值 */
+}
+
+
+/*
 /* 清掉页脚内层容器可能设置的白底，避免出现“白条框” */
 footer .container,
 .site-footer .container,
