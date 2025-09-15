@@ -72,8 +72,3 @@ footer .container,
   background: transparent !important;
 }
 
-/* 给“标题后紧跟列表”补一点上边距（无序/有序都管） */
-h4 + ul, h4 + ol { margin-top: 0.3rem; }
-
-/* 明确 h4 的下边距，避免不一致或折叠 */
-h4 { margin-bottom: 0.3rem; }
