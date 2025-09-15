@@ -53,3 +53,14 @@ footer .container,
   color: #111;
 }
 
+/* 1) 收紧“页面正文顶部”的整体留白 */
+main.page-content, .page-content{
+  padding-top: .5rem !important;          /* 视情况再往小调：.4rem/.3rem */
+}
+
+/* 2) 把第一个主标题（h1/page-title）的上边距清零或变小 */
+.page-content :is(h1.page-title, h1):first-of-type{
+  margin-top: .15rem !important;          /* 想更贴可改成 0 */
+  margin-bottom: .35rem !important;
+  line-height: 1.15 !important;
+}
