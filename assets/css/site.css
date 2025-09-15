@@ -40,3 +40,21 @@ footer .container,
   background: transparent !important;
 }
 
+
+/* 正文容器：浅色半透明打底 + 轻微模糊，提升可读性 */
+.page-content .container,
+.container, .container-md,
+.col-xl-8, .col-lg-10,
+.post, .post-content, .post-preview, .content {
+  background: rgba(255,255,255,0.84) !important;  /* 透明度可调：0.72~0.92 */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  color: #111; /* 防止文字过浅 */
+}
+
+/* 让卡片与背景留一点间距（按需调小/调大） */
+.page-content { padding-top: 0.75rem !important; padding-bottom: 0.75rem !important; }
+
