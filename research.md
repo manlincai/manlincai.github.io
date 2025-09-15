@@ -15,6 +15,8 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
 
 #### Immigrant trajectories from Education to Work and Permanent Residency
 
+<div></div>
+
 - Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” *Canadian Ethnic Studies* 56(2): 157-176.
 
 
