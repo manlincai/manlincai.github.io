@@ -76,4 +76,4 @@ footer .container,
 h4 + ul, h4 + ol { margin-top: 1rem; }
 
 /* 明确 h4 的下边距，避免不一致或折叠 */
-h4 { margin-bottom: 1rem; }
+h4 { margin-bottom: 1.25rem; }
