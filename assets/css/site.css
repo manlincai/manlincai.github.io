@@ -72,11 +72,8 @@ footer .container,
   background: transparent !important;
 }
 
-/* 只修复 gapfix 容器里的：上一个列表 → 标题 的间距 */
-.gapfix ul + h4 { margin-top: 0.6rem !important; }
+/* 给“标题后紧跟列表”补一点上边距（无序/有序都管） */
+h4 + ul, h4 + ol { margin-top: 0.3rem; }
 
-/* 只修复 gapfix 容器里的：标题 → 紧跟列表 的间距 */
-.gapfix h4 + ul { margin-top: 0.35rem !important; }
-
-/*（可选调试）画个细边框，确认这段 CSS 生效；OK 后可删 */
-.gapfix { outline: 1px solid transparent; }
+/* 明确 h4 的下边距，避免不一致或折叠 */
+h4 { margin-bottom: 0.3rem; }
