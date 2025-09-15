@@ -20,3 +20,35 @@ body{
 .big-img{
   background: center/cover no-repeat fixed var(--bg-image) !important;
 }
+
+
+
+
+/* === A. 收窄内容区宽度（条仍然全宽） === */
+:root{
+  /* 你想要的最大宽度，可改 */
+  --nav-max: 1100px;
+  --footer-max: 1100px;
+}
+
+/* Navbar 内部容器 */
+nav.navbar > .container,
+nav.navbar > .container-fluid,
+.navbar .container,
+.navbar .container-fluid {
+  max-width: var(--nav-max);
+  width: 92%;             /* 留一点左右留白 */
+  margin: 0 auto;         /* 居中 */
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Footer 内部容器 */
+footer .container,
+.site-footer .container {
+  max-width: var(--footer-max);
+  width: 92%;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
