@@ -53,15 +53,3 @@ footer .container,
   line-height: 1.15 !important;
 }
 
-/* 内容区整体向上贴一点 */
-main.page-content, .page-content{
-  padding-top: .5rem !important;
-}
-
-/* 如果你保留了自定义的细分隔线（<hr class="tight-hr">），让它很“紧” */
-hr.tight-hr{
-  margin: .25rem 0 .4rem !important;   /* 很小的上下间距 */
-  opacity: .5;
-  border: 0;
-  border-top: 1px solid rgba(255,255,255,.7);
-}
