@@ -41,28 +41,27 @@ footer .container,
   background: transparent !important;
 }
 
-/* 头像与标题之间收紧 —— 命中常见类名，带 !important 提高权重 */
-.avatar, .avatar-container, .avatar img, img[alt*="avatar"]{
-  margin-bottom: .2rem !important;   /* 头像底部距离 */
-}
-/* 主标题/副标题的外边距与行高收紧 */
-h1, .page-title{
-  margin-top: .2rem !important;
-  margin-bottom: .25rem !important;
-  line-height: 1.2 !important;
-}
-.page-subtitle, .subtitle{
-  margin-top: 0 !important;
+
+/* 头像与标题之间更贴近 */
+.navbar .avatar, .avatar, .avatar-container img{
   margin-bottom: .2rem !important;
 }
 
+/* 首个标题的上边距收紧 */
+.page-content h1:first-of-type{
+  margin-top: .25rem !important;
+  line-height: 1.15 !important;
+}
 
-/* —— 全页轻微暗化，提高整体可读性（不需要可注释掉） —— */
-body::before{
-  content: "";
-  position: fixed;
-  inset: 0;
-  background: rgba(0,0,0,0.15); /* 调整 0.08~0.15 之间看效果 */
-  pointer-events: none;
-  z-index: 1;
+/* 内容区整体向上贴一点 */
+main.page-content, .page-content{
+  padding-top: .5rem !important;
+}
+
+/* 如果你保留了自定义的细分隔线（<hr class="tight-hr">），让它很“紧” */
+hr.tight-hr{
+  margin: .25rem 0 .4rem !important;   /* 很小的上下间距 */
+  opacity: .5;
+  border: 0;
+  border-top: 1px solid rgba(255,255,255,.7);
 }
