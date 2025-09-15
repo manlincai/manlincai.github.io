@@ -1,54 +1,36 @@
-/* ===== Global ===== */
-:root{
-  --bg-image: url("/assets/img/calgary.jpg");
-  --bar-bg: rgba(255,255,255,0.82);
-  --bar-text: #111;
-  --content-bg: rgba(255,255,255,0.66);
+/* 通用：带背景图的面板 */
+.panel-bg{
+  position: relative;
+  /* 用同一张图：从内联 style 传入 --panel-img */
+  background-image: var(--panel-img);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /* 让三块在滚动时看起来像同一张图（可注释掉） */
+  background-attachment: fixed;
+
+  border-radius: 16px;
+  overflow: hidden;
+  padding: clamp(1rem, 2.2vw, 2rem);
+  margin-bottom: 1rem; /* 三块之间留点距 */
+  box-shadow: 0 6px 20px rgba(0,0,0,.08);
 }
 
-*,*::before,*::after{ box-sizing:border-box; }
-html,body{ height:100%; }
-body{
-  margin:0;
-  color:#222;
-  background: center/cover no-repeat fixed var(--bg-image);
+/* 半透明遮罩（可读性） */
+.panel-bg::before{
+  content: "";
+  position: absolute; inset: 0;
+  /* 透明度可调：0.65(更实) ~ 0.82(更白) */
+  background: rgba(255,255,255,.78);
+  backdrop-filter: blur(2px);  /* 轻微虚化底图，提升对比 */
+  pointer-events: none;
 }
 
-/* ★ 让 hero（title/subtitle 那块）也使用同一张图，但不改文字样式 */
-.intro-header,
-.page-header,
-.big-img{
-  background: center/cover no-repeat fixed var(--bg-image) !important;
-}
+/* 让文字在遮罩之上 */
+.panel-bg > *{ position: relative; z-index: 1; }
 
-
-
-
-/* === A. 收窄内容区宽度（条仍然全宽） === */
-:root{
-  /* 你想要的最大宽度，可改 */
-  --nav-max: 1100px;
-  --footer-max: 1100px;
-}
-
-/* Navbar 内部容器 */
-nav.navbar > .container,
-nav.navbar > .container-fluid,
-.navbar .container,
-.navbar .container-fluid {
-  max-width: var(--nav-max);
-  width: 50%;             /* 留一点左右留白 */
-  margin: 0 auto;         /* 居中 */
-  padding-left: 0;
-  padding-right: 0;
-}
-
-/* Footer 内部容器 */
-footer .container,
-.site-footer .container {
-  max-width: var(--footer-max);
-  width: 50%;
-  margin: 0 auto;
-  padding-left: 0;
-  padding-right: 0;
+/* 小屏优化：遮罩稍微实一点、内边距小点 */
+@media (max-width: 576px){
+  .panel-bg{ padding: 0.9rem; }
+  .panel-bg::before{ background: rgba(255,255,255,.82); }
 }
