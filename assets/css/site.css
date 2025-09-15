@@ -26,6 +26,36 @@ footer,
   border-top: 0 !important;
 }
 
+/* 清掉页脚内层容器可能设置的白底，避免出现“白条框” */
+footer .container,
+.site-footer .container,
+.footer .container{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* 若你的主题把版权行单独上了底色，也一并清掉 */
+.site-footer .copyright,
+.footer .copyright{
+  background: transparent !important;
+}
+
+/* 头像与标题之间收紧 —— 命中常见类名，带 !important 提高权重 */
+.avatar, .avatar-container, .avatar img, img[alt*="avatar"]{
+  margin-bottom: .2rem !important;   /* 头像底部距离 */
+}
+/* 主标题/副标题的外边距与行高收紧 */
+h1, .page-title{
+  margin-top: .2rem !important;
+  margin-bottom: .25rem !important;
+  line-height: 1.2 !important;
+}
+.page-subtitle, .subtitle{
+  margin-top: 0 !important;
+  margin-bottom: .2rem !important;
+}
+
 
 /* —— 全页轻微暗化，提高整体可读性（不需要可注释掉） —— */
 body::before{
