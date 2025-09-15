@@ -73,6 +73,6 @@ footer .container,
 }
 
 
-h4{ margin-block-end: 0; padding-block-end: 1rem; }
+h4{ margin-block-end: 1rem; padding-block-end: 0rem; }
 h4 + ul, h4 + ol{ margin-block-start: 1rem; }
 
