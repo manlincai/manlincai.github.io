@@ -13,13 +13,13 @@ One line of my research focuses on how race and ethnicity shape immigrant integr
 - **Cai, Manlin** and Yue Qian. 2023. “[Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver](https://doi.org/10.1111/cars.12414).” *Canadian Review of Sociology* 60(1): 130-153.
 
 <style>
-/* 只修复“Immigrant Trajectories …”这一块的上下间距 */
+
 #imm-traj-anchor + h4 { 
-  margin-top: 0.6rem !important;   /* 标题上方 */
-  margin-bottom: 0.35rem !important; /* 标题下方 */
+  margin-top: 0.6rem !important;   
+  margin-bottom: 0.35rem !important; 
 }
 #imm-traj-anchor + h4 + ul {
-  margin-top: 0.2rem !important;   /* 紧跟的列表上边距 */
+  margin-top: 0.2rem !important;   
 }
 </style>
 <a id="imm-traj-anchor"></a>
