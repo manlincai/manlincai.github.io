@@ -25,6 +25,53 @@ footer,
   border-top: 0 !important;
 }
 
+/* —— 标题区 + 正文：统一 50% 半透明白底 —— */
+
+/* 标题区（page/intro header） */
+.intro-header, .page-header, header[role="banner"],
+.intro-header .container, .page-header .container,
+.intro-header .container-md, .page-header .container-md{
+  background: rgba(255,255,255,0.5) !important;  /* 50% */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 14px;
+}
+
+/* 正文容器（外层 + 内层列都同一透明度） */
+.page-content .container,
+.page-content .container-md,
+.page-content .col-xl-8, .page-content .col-lg-10,
+.page-content .post, .page-content .post-content,
+.page-content .post-preview, .page-content .content,
+.page-content > .row > [class*="col"]{
+  background: rgba(255,255,255,0.5) !important;  /* 50% */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  color: #111;
+}
+
+/* 为避免“两层看起来更厚”，外层容器的内边距略收小 */
+.page-content .container,
+.page-content .container-md{
+  padding: 0.6rem 0.7rem !important;
+}
+
+/* —— 明确：页脚不加底色 —— */
+footer, .site-footer,
+footer .container, .site-footer .container,
+footer .container-md, .site-footer .container-md{
+  background: transparent !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+
+/*
 /* 清掉页脚内层容器可能设置的白底，避免出现“白条框” */
 footer .container,
 .site-footer .container,
@@ -40,17 +87,5 @@ footer .container,
   background: transparent !important;
 }
 
-
-/* 正文容器半透明白底 */
-.page-content .container,
-.container-md,
-.col-xl-8, .col-lg-10,
-.post, .home .container-md {
-  background: rgba(255,255,255,0.82);
-  backdrop-filter: blur(2px);
-  border-radius: 14px;
-  padding: 1.25rem 1.5rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-}
-
+*/
 
