@@ -73,6 +73,11 @@ footer .container,
 }
 
 
-h4{ margin-block-end: 1rem; padding-block-end: 0rem; }
-h4 + ul, h4 + ol{ margin-block-start: 1rem;  display: flow-root; }
+/* 只修“第二处”的 h4 与它后面的列表 */
+#immigrant-trajectories-from-education-to-work-and-permanent-residency {
+  margin-block-end: 1rem;   /* 需要多/少就改这个数值 */
+}
 
+#immigrant-trajectories-from-education-to-work-and-permanent-residency + ul {
+  margin-block-start: 0 !important; /* 清掉列表上边距，避免与 h4 折叠 */
+}
