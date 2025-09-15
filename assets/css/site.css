@@ -59,19 +59,8 @@ footer,
   padding: 0.6rem 0.7rem !important;
 }
 
-/* —— 明确：页脚不加底色 —— */
-footer, .site-footer,
-footer .container, .site-footer .container,
-footer .container-md, .site-footer .container-md{
-  background: transparent !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
-  box-shadow: none !important;
-  border: 0 !important;
-}
 
 
-/*
 /* 清掉页脚内层容器可能设置的白底，避免出现“白条框” */
 footer .container,
 .site-footer .container,
@@ -87,5 +76,5 @@ footer .container,
   background: transparent !important;
 }
 
-*/
+
 
