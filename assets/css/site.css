@@ -41,18 +41,6 @@ footer .container,
 }
 
 
-/* 仅内层列做成卡片 */
-.page-content .col-xl-8,
-.page-content .col-lg-10{
-  background: rgba(255,255,255,0.84) !important;
-  backdrop-filter: blur(2px);
-  -webkit-backdrop-filter: blur(2px);
-  border-radius: 14px;
-  padding: 1.1rem 1.3rem;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
-  color: #111;
-}
-
 /* 1) 收紧“页面正文顶部”的整体留白 */
 main.page-content, .page-content{
   padding-top: .5rem !important;          /* 视情况再往小调：.4rem/.3rem */
@@ -75,3 +63,42 @@ main.page-content, .page-content{
   color: #FFFFFF !important;           /* 副标题色 */
   text-shadow: 0 1px 2px rgba(0,0,0,.10);
 }
+
+
+/* 0)（可选）先清理以前可能加过的底色，避免出现“两层卡片” */
+.page-content .container,
+.page-content .container-md,
+.page-content .post,
+.page-content .post-content,
+.page-content .post-preview,
+.page-content .content{
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  padding-left: 0 !important;   /* 防止外层再加一圈边距 */
+  padding-right: 0 !important;
+}
+
+/* 1) 只给“最内层列”加卡片底色（通吃 col-lg-10 / col-md-12 / col-sm-12 等） */
+.page-content .container-md > .row > [class*="col"],
+.page-content .container    > .row > [class*="col"],
+.page-content               > .row > [class*="col"]{
+  background: rgba(255,255,255,0.84) !important;  /* 透明度可调 0.76~0.92 */
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 14px;
+  padding: 1.1rem 1.3rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  color: #111;
+}
+
+/* 2) 确保 header/footer 不被误命中（再保险） */
+header :is(.container, .container-md, .row, [class*="col"]),
+footer :is(.container, .container-md, .row, [class*="col"]){
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  padding-left: initial !important;
+  padding-right: initial !important;
+}
+
