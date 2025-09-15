@@ -28,10 +28,9 @@ footer,
 /* ——统一 50% 半透明白底 —— */
 
 .page-content .container,
-.page-content .container-md,
-.page-content .col-xl-8,
-.page-content .col-lg-10,
-.page-content .post {
+.container-md,
+.col-xl-8, .col-lg-10,
+.post, .home .container-md {
   background: rgba(255,255,255,0.5);
   backdrop-filter: blur(2px);
   border-radius: 14px;
