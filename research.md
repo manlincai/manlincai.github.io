@@ -6,21 +6,19 @@ title: Research
 One line of my research focuses on how race and ethnicity shape immigrant integration in Canada across romantic, educational, and work domains. Understanding the intersection of race/ethnicity and immigration is crucial for social equity and inclusion in Canada, where [over 25% of the population is visible minorities](https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm) and [70% of them are immigrants](https://www150.statcan.gc.ca/n1/pub/12-581-x/2023001/sec2-eng.htm). As a racial minority immigrant working in a second language, I unpack the everyday complexities of integration through my research. Below are some select publications:
 
 
-#### Immigrants' Romantic Lives in the Digital Era
+<h4>Immigrants' Romantic Lives in the Digital Era</h4>
+<ul>
+  <li><strong>Cai, Manlin</strong>, Yue Qian, and Yang Hu. 2025. “<a href="https://doi.org/10.1177/02654075251339257">The Efficiency Paradox: A Temporal Lens into Online Dating among Chinese Immigrants in Canada</a>.” <em>Journal of Social and Personal Relationships</em> 42(8): 2167–2187.</li>
+  <li><strong>Cai, Manlin</strong> and Yue Qian. 2023. “<a href="https://doi.org/10.1111/cars.12414">Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver</a>.” <em>Canadian Review of Sociology</em> 60(1): 130–153.</li>
+</ul>
 
-- **Cai, Manlin**, Yue Qian, and Yang Hu. 2025. “[The Efficiency Paradox: A Temporal Lens into Online Dating among Chinese Immigrants in Canada](https://doi.org/10.1177/02654075251339257).” Journal of Social and Personal Relationships 42(8): 2167-2187.
+<h4>Immigrant Trajectories from Education to Work and Permanent Residency</h4>
+<ul>
+  <li>Lui, Lake, <strong>Manlin Cai</strong>, and Yue Qian. 2024. “<a href="https://muse.jhu.edu/article/934427">Comfortably ‘Western’: How Chinese International Students Imagine Canada</a>.” <em>Canadian Ethnic Studies</em> 56(2): 157–176.</li>
+</ul>
 
-- **Cai, Manlin** and Yue Qian. 2023. “[Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver](https://doi.org/10.1111/cars.12414).” *Canadian Review of Sociology* 60(1): 130-153.
+<p>Another line of my research foregrounds gender inequalities at the work-family interface in both Canada and China. I introduce my dissertation work and some select publications below.</p>
 
-
-#### Immigrant trajectories from Education to Work and Permanent Residency
-
-<div></div>
-
-- Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” *Canadian Ethnic Studies* 56(2): 157-176.
-
-
-Another line of my research foregrounds gender inequalities at the work-family interface in both Canada and China. I introduce my dissertation work and some select publications below.
 
 #### Dissertation: Power and Status in Public and Private Spheres: Gender, Workplace Authority, and Family Dynamics in China"
 
