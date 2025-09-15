@@ -37,7 +37,7 @@ nav.navbar > .container-fluid,
 .navbar .container,
 .navbar .container-fluid {
   max-width: var(--nav-max);
-  width: 92%;             /* 留一点左右留白 */
+  width: 50%;             /* 留一点左右留白 */
   margin: 0 auto;         /* 居中 */
   padding-left: 0;
   padding-right: 0;
@@ -47,7 +47,7 @@ nav.navbar > .container-fluid,
 footer .container,
 .site-footer .container {
   max-width: var(--footer-max);
-  width: 92%;
+  width: 50%;
   margin: 0 auto;
   padding-left: 0;
   padding-right: 0;
