@@ -1,36 +1,36 @@
-/* 通用：带背景图的面板 */
-.panel-bg{
+/* —— 整页背景“铺满 + 居中”，避免只看到顶部一小条 —— */
+body{
+  background-size: cover !important;          /* 按比例铺满视口 */
+  background-position: center center !important; /* 居中（要顶对齐可改为 center top） */
+  background-repeat: no-repeat !important;
+  background-attachment: scroll !important;   /* 避免 fixed 造成只露出顶部的错觉 */
   position: relative;
-  /* 用同一张图：从内联 style 传入 --panel-img */
-  background-image: var(--panel-img);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  /* 让三块在滚动时看起来像同一张图（可注释掉） */
-  background-attachment: fixed;
-
-  border-radius: 16px;
-  overflow: hidden;
-  padding: clamp(1rem, 2.2vw, 2rem);
-  margin-bottom: 1rem; /* 三块之间留点距 */
-  box-shadow: 0 6px 20px rgba(0,0,0,.08);
 }
 
-/* 半透明遮罩（可读性） */
-.panel-bg::before{
+/* —— 导航 & 页脚透明，让它们“透”出同一张背景图 —— */
+.navbar, footer.site-footer, .footer {
+  background: transparent !important;
+  box-shadow: none !important;
+  position: relative;
+  z-index: 2;
+}
+
+/* 给导航加一层顶部渐变，提升文字对比度（不需要可删） */
+.navbar::after{
   content: "";
-  position: absolute; inset: 0;
-  /* 透明度可调：0.65(更实) ~ 0.82(更白) */
-  background: rgba(255,255,255,.78);
-  backdrop-filter: blur(2px);  /* 轻微虚化底图，提升对比 */
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0));
   pointer-events: none;
+  z-index: -1;
 }
 
-/* 让文字在遮罩之上 */
-.panel-bg > *{ position: relative; z-index: 1; }
-
-/* 小屏优化：遮罩稍微实一点、内边距小点 */
-@media (max-width: 576px){
-  .panel-bg{ padding: 0.9rem; }
-  .panel-bg::before{ background: rgba(255,255,255,.82); }
+/* —— 全页轻微暗化，提高整体可读性（不需要可注释掉） —— */
+body::before{
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.08); /* 调整 0.08~0.15 之间看效果 */
+  pointer-events: none;
+  z-index: 1;
 }
