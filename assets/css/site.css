@@ -12,7 +12,6 @@ body{
   background: rgba(255, 255, 255, 0.3) !important;
   box-shadow: none !important;
   position: relative;
-  z-index: 2;
 }
 
 footer,
@@ -41,18 +40,3 @@ footer .container,
   background: transparent !important;
 }
 
-
-/* 仅收紧头像与标题之间的距离 —— 极简三条 */
-.avatar, .avatar-container img { 
-  margin-bottom: .2rem !important;     /* 头像底部距离更小 */
-}
-
-h1.page-title, .page-content h1:first-of-type { 
-  margin-top: .25rem !important;       /* 标题上边距更小 */
-  line-height: 1.15 !important;        /* 行高更紧凑，视觉上更贴 */
-}
-
-/* 如果标题下面有那条横线（主题会插入 <hr>），把它的上下外边距压小 */
-h1.page-title + hr, .page-content h1:first-of-type + hr {
-  margin: .25rem 0 .35rem !important;
-}
