@@ -7,13 +7,13 @@ title: Teaching
 I have accumulated over four years of teaching and mentoring experience through extensive teaching assistantships, guest lectures, and research mentorship. 
 
 I served as a teaching assistant for the following courses at the University of British Columbia:
+- Work and Inequality
 - Social Statistics (Twice)
   - Independently taught  recitation sessions
 - Social Interaction and Culture (Introduction to Sociology course)
   - Independently taught an hour-long tutorial for two sections per week
 - Inequality and Social Change (Introduction to Sociology course)
   - Independently taught an hour-long tutorial for two sections per week
-- Work and Inequality
 - Survey Methods
 - Family Context of Human Development 
 
