@@ -23,9 +23,9 @@ In addition to  journal articles, I led a policy brief in partnership with [*the
 The second line of my research focuses on inqualities and complexities racialized immigrants encounter in work-family lives. Understanding the intersection of race/ethnicity and immigration is crucial for social equity and inclusion in Canada, where [over 25% of the population is visible minorities](https://www150.statcan.gc.ca/n1/daily-quotidien/221026/dq221026b-eng.htm) and [70% of them are immigrants](https://www150.statcan.gc.ca/n1/pub/12-581-x/2023001/sec2-eng.htm). Below are some select publications.
 
 - **Cai, Manlin**, Yue Qian, and Yang Hu. 2025. “[The Efficiency Paradox: A Temporal Lens into Online Dating among Chinese Immigrants in Canada](https://doi.org/10.1177/02654075251339257).” Journal of Social and Personal Relationships 42(8): 2167-2187.
-
-- Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
   
 - **Cai, Manlin** and Yue Qian. 2023. “[Digital Ethnic Enclaves: Mate Preferences and Platform Choices Among Chinese Immigrant Online Daters in Vancouver](https://doi.org/10.1111/cars.12414).” *Canadian Review of Sociology* 60(1): 130-153.
   
+- Lui, Lake, **Manlin Cai**, and Yue Qian. 2024. “[Comfortably ‘Western’: How Chinese International Students Imagine Canada](https://muse.jhu.edu/article/934427).” Canadian Ethnic Studies 56(2): 157-176.
+
 - Qin, Siqi, **Manlin Cai**, Sylvia Fuller, and Yue Qian. 2022. “[Gender, Parenthood and Employment During COVID-19: An Immigrant-Native Born Comparison in Canada](https://doi.org/10.1353/ces.2022.0025).” *Canadian Ethnic Studies* 54(3): 63-108.
