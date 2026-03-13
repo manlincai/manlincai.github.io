@@ -60,7 +60,7 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "manlin19@student.ubc.ca"
+  email: "manlin.cai@ubc.ca"
   google-scholar: citations?user=CVo9EYsAAAAJ&hl=en
   ORCID: 0000-0002-9683-0441
   linkedin: manlin-cai
@@ -155,7 +155,7 @@ footer-hover-col: "#0085A1"
 
 #footer-img: "/assets/img/aaa2.png"
 
-page-img: "/assets/img/calgary.jpg"
+page-img: "/assets/img/BC.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
 #mobile-theme-col: "#0085A1"
